@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="utf-8" />
+    <title>आपका लर्निंग गाइड</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content name="keywords" />
+    <meta content name="description" />
+
+    <!-- Favicon -->
+    <link href="https://prameshwealth.com/assets/images/favicon.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("P55U0Qgt9PSh5R83Z");
+        })();
+    </script>
+
+    <script src="forms/contact.js"></script>
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem" role="status">
+                <span class="sr-only">लोड हो रहा है...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0"><i>आपका लर्निंग गाइड</i></h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="" class="nav-item nav-link active">होम</a>
+                        <div class="nav-item">
+                            <a href="#contact" class="nav-link">हमारे बारे में</a>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">सेवाएं</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#social" class="dropdown-item">सोशल मीडिया</a>
+                                <a href="#banking" class="dropdown-item">बैंकिंग</a>
+                                <a href="#onlineShopping" class="dropdown-item">ऑनलाइन शॉपिंग</a>
+                                <a href="#awareness" class="dropdown-item">जागरूकता</a>
+                                <a href="#" class="dropdown-item">अन्य</a>
+                            </div>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a href="Registration.html" class="nav-link">रजिस्टर</a>
+                        </div>
+                    </div>
+                    <a href="#Queries" class="btn btn-light rounded-pill text-primary py-2 px-4 ms-lg-5">प्रश्न</a>
+                    <div class="nav-item dropdown ms-lg-3">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fas fa-globe"></i> भाषा
+                            <div class="dropdown-menu m-0">
+                                <a href="Home.html" class="dropdown-item" data-lang="en">English</a>
+                            <a href="Hindi.html" class="dropdown-item" data-lang="es">हिंदी</a>
+                            <a href="Gujarati.html" class="dropdown-item" data-lang="fr">ગુજરાતી</a>
+                            <a href="Tamil.html" class="dropdown-item" data-lang="fr"> தமிழ்</a>
+                            <a href="Punjabi.html" class="dropdown-item" data-lang="fr">ਪੰਜਾਬੀ</a>
+                            <a href="Marathi.html" class="dropdown-item" data-lang="fr"> मराठी</a>
+                                <!-- Add more languages as needed -->
+                            </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-xxl bg-primary hero-header">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated zoomIn">
+                                आपके पसंदीदा सोशल मीडिया ऐप्स को नेविगेट करने के लिए एक सरल गाइड!</h1>
+                            <p class="text-white pb-3 animated zoomIn">
+                                सोशल मीडिया ऐप्स का उपयोग करने के लिए चरण-दर-चरण गाइड</p>
+
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid animated zoomIn" src="img/hero.png" alt />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-6" id="contact">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="img/aboutimg.png" />
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">
+                            हमारे बारे में
+                        </div>
+
+                        <p class="mb-4">
+                            आपका लर्निंग गाइड में आपका स्वागत है! हम उपयोगकर्ताओं को डिजिटल दुनिया में सक्षम बनाने के
+                            लिए ज्ञान और कौशल प्रदान करने के लिए सोशल मीडिया, बैंकिंग, ऑनलाइन शॉपिंग, जागरूकता
+                        </p>
+                        <div class="row g-3 mb-4">
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-user-tie text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h6>सोशल मीडिया</h6>
+                                    <span> हमारे गाइडों के साथ सोशल मीडिया की दुनिया में उतरें जो आपको विभिन्न
+                                        प्लेटफार्मों पर दोस्तों, परिवार और समुदायों के साथ प्रभावी ढंग से जुड़ने, साझा
+                                        करने और जुड़ने में मदद करते हैं।</span>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-chart-line text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h6>बैंकिंग</h6>
+                                    <span>हमारे चरण-दर-चरण ट्यूटोरियल के साथ अपने बैंकिंग अनुभव को सरल बनाएं
+                                        आपको अपने वित्त का प्रबंधन करने, धन हस्तांतरित करने और मोबाइल बैंकिंग का उपयोग
+                                        करने में सहायता करें
+                                        सुविधाएँ सुरक्षित रूप से</span>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-chart-line text-white"></i>
+
+                                </div>
+                                <div class="ms-4">
+                                    <h6>ऑनलाइन शॉपिंग</h6>
+                                    <span>आत्मविश्वास के साथ ऑनलाइन शॉपिंग परिदृश्य में नेविगेट करें! हमारी युक्तियाँ और
+                                        युक्तियाँ
+                                        सुरक्षित और कुशल खरीदारी के लिए सर्वोत्तम प्रथाओं के माध्यम से आपका मार्गदर्शन
+                                        करेगा
+                                        अनुभव.</span>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-user-tie text-white"></i>
+
+                                </div>
+                                <div class="ms-4">
+                                    <h6>जागरूकता</h6>
+                                    <span> नवीनतम डिजिटल रुझानों, सुरक्षा प्रथाओं और से अवगत रहें और जागरूक रहें
+                                        आपकी ऑनलाइन सुरक्षा बढ़ाने और आपके डिजिटल को अनुकूलित करने के लिए ऐप अपडेट
+                                        जीवन शैली।</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-6" id="social">
+        <div class="container">
+            <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
+                <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">
+                    हमारी सेवाएँ
+                </div>
+                <h2 class="mb-5">हम आपके व्यवसाय पर समाधान प्रदान करते हैं</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded h-100" id="whatsapp-container" onclick="openDialog('whatsapp')">
+                        <div class="d-flex justify-content-between">
+                            <div class="service-icon">
+                                <i class="fab fa-whatsapp fa-2x"></i>
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <h5 class="mb-3">व्हाट्सएप </h5>
+                            <span>त्वरित संचार के लिए एक मैसेजिंग ऐप। यह उपयोगकर्ताओं को अनुमति देता है
+                                टेक्स्ट संदेश, वॉयस नोट्स, चित्र, वीडियो भेजने और बनाने के लिए
+                                वॉयस या वीडियो कॉल, वास्तविक समय व्यक्तिगत या समूह को सक्षम करना
+                                बात चिट।</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instagram Service Item -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded h-100" id="instagram-container" onclick="openDialog('instagram')">
+                        <div class="d-flex justify-content-between">
+                            <div class="service-icon">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <h5 class="mb-3">इंस्टाग्राम </h5>
+                            <span>एक दृश्य-केंद्रित मंच जहां उपयोगकर्ता फ़ोटो, वीडियो, साझा करते हैं
+                                और कहानियां. यह व्यक्तिगत ब्रांडिंग, व्यवसाय के लिए लोकप्रिय है
+                                मार्केटिंग, और रचनात्मक माध्यम से दर्शकों से जुड़ना
+                                सामग्री</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Facebook Service Item -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded h-100" id="facebook-container" onclick="openDialog('facebook')">
+                        <div class="d-flex justify-content-between">
+                            <div class="service-icon">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <h5 class="mb-3">फेसबुक</h5>
+                            <span>एक सोशल मीडिया प्लेटफ़ॉर्म है जहाँ उपयोगकर्ता दोस्तों से जुड़ सकते हैं, अपडेट्स, फ़ोटो
+                                और वीडियो साझा कर सकते हैं, और रुचि के पेज़ या समूहों का अनुसरण कर सकते हैं। यह संपर्क
+                                में रहने और समुदायों के साथ जुड़ने के लिए शानदार है।
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded h-100" id="youtube-container" onclick="openDialog('youtube')">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fab fa-youtube fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">यूट्यूब </h5>
+                                <span>यूट्यूब एक वीडियो-शेयरिंग प्लेटफ़ॉर्म है जहाँ उपयोगकर्ता वीडियो अपलोड, देख सकते
+                                    हैं और उनसे इंटरैक्ट कर सकते हैं। यह मनोरंजन, शिक्षा, ट्यूटोरियल्स, और ब्रांड
+                                    प्रमोशन के लिए व्यापक रूप से उपयोग किया जाता है, जिसमें आकर्षक वीडियो कंटेंट के
+                                    माध्यम से उपयोगकर्ता जुड़ते हैं।</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dialog-box" class="dialog-box">
+                    <div class="dialog-content">
+                        <div class="dialog-header">
+                            <i id="dialog-icon" class="fab fa-whatsapp fa-4x"></i>
+                            <h3 id="dialog-title">WhatsApp गाइड</h3>
+                            <span class="close-btn" onclick="closeDialog()">&times;</span>
+                        </div>
+                        <div class="dialog-body">
+                            <h4>कैसे उपयोग करें <span id="app-name">WhatsApp</span></h4>
+                            <ol id="guide-steps">
+                                <!-- Steps will be dynamically updated -->
+                            </ol>
+                            <h4>सुरक्षा सुविधाएँ</h4>
+                            <ul id="security-features">
+                                <!-- Security features will be dynamically updated -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Features Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h2 class="mb-4">
+                        अपने वित्त को सशक्त बनाएं: निर्बाध बैंकिंग अनुभव के लिए सर्वश्रेष्ठ बैंकिंग ऐप्स का अन्वेषण
+                        करें!
+                    </h2>
+
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="Certificates.html">और पढ़ें</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-5">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-cubes text-white"></i>
+                                </div>
+                                <h6 class="mb-0">एक्सिस मोबाइल</h6>
+                            </div>
+                            <span> अपने एक्सिस बैंक खातों का प्रबंधन करें। सुरक्षित और तेज़ लेनदेन के साथ बैंकिंग
+                                सेवाओं, धन हस्तांतरण, बिल भुगतान और अधिक का आनंद लें।
+                            </span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-percent text-white"></i>
+                                </div>
+                                <h6 class="mb-0">HDFC मोबाइल बैंकिंग</h6>
+                            </div>
+                            <span>
+                                HDFC की मोबाइल बैंकिंग ऐप आपके अंगूठे पर बैंकिंग लाती है। खाता विवरण, धन हस्तांतरण, बिल
+                                भुगतान, और उन्नत सुरक्षा सुविधाओं के साथ ऋण के लिए आवेदन करें।
+                            </span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-award text-white"></i>
+                                </div>
+                                <h6 class="mb-0">BOB वर्ल्ड</h6>
+                            </div>
+                            <span> बैंक ऑफ बड़ौदा का BOB वर्ल्ड ऐप डिजिटल बैंकिंग सेवाओं की दुनिया प्रदान करता है, धन
+                                हस्तांतरण से लेकर निवेश विकल्पों तक, एक सुगम और सुरक्षित बैंकिंग अनुभव सुनिश्चित करता
+                                है।
+                            </span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-smile-beam text-white"></i>
+                                </div>
+                                <h6 class="mb-0">YONO SBI</h6>
+                            </div>
+                            <span>
+                                YONO SBI व्यापक बैंकिंग सेवाएं प्रदान करता है, जो खाता प्रबंधन और निवेश से लेकर खरीदारी
+                                और जीवनशैली के लाभों तक, सब कुछ एक ही ऐप में।
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    <div class="container-xxl py-6">
+        <div class="container">
+            <h2 class="mb-5 text-center">🛍 ऑनलाइन शॉपिंग ऐप्स गाइड</h2>
+
+            <!-- Amazon Section -->
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <img src="img/amazon.jpg" class="img-fluid rounded shadow" alt="Amazon Shopping App"
+                        style="width:200px; height: 200px; object-fit: contain; display: block; margin: auto;">
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-3">अमेज़न</h4>
+                    <p>अमेज़न सबसे लोकप्रिय ई-कॉमर्स प्लेटफार्मों में से एक है, जो तेज़ डिलीवरी, सुरक्षित भुगतान और
+                        रोमांचक
+                        ऑफ़र प्रदान करता है।</p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="https://amazon.in" target="_blank">और
+                        जानें</a>
+                </div>
+            </div>
+
+            <!-- Flipkart Section -->
+            <div class="row g-5 align-items-center flex-row-reverse mt-4">
+                <div class="col-lg-6">
+                    <img src="img/flipkart.jpg" class="img-fluid rounded shadow" alt="Flipkart Shopping App"
+                        style="width: 200px; height:200px; object-fit: contain; display: block; margin: auto;">
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-3">फ्लिपकार्ट</h4>
+                    <p>फ्लिपकार्ट भारत का प्रमुख ऑनलाइन शॉपिंग प्लेटफॉर्म है, जो इलेक्ट्रॉनिक्स, कपड़े और घरेलू सामान पर
+                        विशेष छूट प्रदान करता है।</p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="https://flipkart.com" target="_blank">और
+                        जानें</a>
+                </div>
+            </div>
+
+            <!-- Myntra Section -->
+            <div class="row g-5 align-items-center mt-4">
+                <div class="col-lg-6">
+                    <img src="img/myntra.jpg" class="img-fluid rounded shadow" alt="Myntra Shopping App"
+                        style="width: 200px; height: 200px; object-fit: contain; display: block; margin: auto;">
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-3">मिंत्रा</h4>
+                    <p>मिंत्रा एक शीर्ष फैशन और लाइफस्टाइल शॉपिंग प्लेटफॉर्म है जो नवीनतम ट्रेंड के कपड़े, एक्सेसरीज़ और
+                        जूते प्रदान करता है।</p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="https://myntra.com" target="_blank">और
+                        जानें</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Client Start -->
+    <div class="container-xxl bg-primary my-6 py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="owl-carousel client-carousel">
+                <a href="https://www.whatsapp.com/">
+                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                        alt="WhatsApp Logo" />
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img class="img-fluid"
+                        src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                        alt="Facebook Logo" />
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                        alt="Instagram Logo" />
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img class="img-fluid"
+                        src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
+                        alt="YouTube Logo" />
+                </a>
+
+                <!-- Axis Mobile App -->
+                <a href="img/ax'" target="_blank">
+                    <img class="img-fluid" src="img/axis.png" alt="Axis Mobile App Logo" />
+                </a>
+                <!-- HDFC MobileBanking App -->
+                <a href="img/hdfc.png" target="_blank">
+                    <img class="img-fluid" src="img/hdfc.png" alt="HDFC MobileBanking App Logo" />
+                </a>
+                <!-- BOB World App -->
+                <a href="img/bob.jpg" target="_blank">
+                    <img class="img-fluid" src="img/bob.jpg" alt="BOB World App Logo" />
+                </a>
+                <!-- YONO SBI App -->
+                <a href="img/yono.jpeg" target="_blank">
+                    <img class="img-fluid" src="img/yono.jpeg" alt="YONO SBI App Logo" />
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-6" id="Queries">
+        <div class="container">
+            <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">संपर्क करें
+                </div>
+                <h2 class="mb-5">यदि आपके पास कोई प्रश्न है, तो कृपया बेझिझक
+                    हमसे संपर्क करें</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.3s">
+                    <form onsubmit="sendMail()">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="आपका नाम"
+                                        name="name">
+                                    <label for="name">आपका नाम</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="आपका ईमेल"
+                                        name="email">
+                                    <label for="email">आपका
+                                        ईमेल</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="विषय"
+                                        name="subject">
+                                    <label for="subject">विषय</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="यहां एक संदेश छोड़ें" id="message"
+                                        name="message" style="height: 150px"></textarea>
+                                    <label for="message">संदेश</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit" onclick="myFunction()">संदेश
+                                    भेजें</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem">
+        <div class="container py-5">
+            <div class="row g-5">
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="text-white mb-4">हमारे बारे में</h5>
+                    <a class="btn btn-link" href="about.html">सोशल मीडिया
+                    </a>
+                    <a class="btn btn-link" href="">बैंकिंग</a>
+                    <a class="btn btn-link" href="">ऑनलाइन शॉपिंग</a>
+                    <a class="btn btn-link" href="">जागरूकता</a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="text-white mb-4">हमारी सेवाएँ</h5>
+                    <a class="btn btn-link" href="">व्हाट्सएप</a>
+                    <a class="btn btn-link" href="">फेसबुक</a>
+                    <a class="btn btn-link" href="">यूट्यूब</a>
+                    <a class="btn btn-link" href="">इंस्टाग्राम</a>
+                    <a class="btn btn-link" href="">बैंकिंग ऐप्स</a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="position-relative w-100 mt-3">
+                        <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
+                            placeholder="आपका ईमेल" style="height: 48px" />
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
+                            <i class="fa fa-paper-plane text-primary fs-4"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy;
+                        <a class="border-bottom" href="#">2025 आपका लर्निंग गाइड</a>, सभी अधिकार सुरक्षित हैं।
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/hindi.js"></script>
+</body>
+
+</html>

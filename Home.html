@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Your Learning Guide</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content name="keywords" />
+    <meta content name="description" />
+
+    <!-- Favicon -->
+    <link href="https://prameshwealth.com/assets/images/favicon.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("P55U0Qgt9PSh5R83Z");
+        })();
+    </script>
+
+    <script src="forms/contact.js"></script>
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0"><i>Your Learning Guide</i></h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="" class="nav-item nav-link active">Home</a>
+                        <div class="nav-item">
+                            <a href="#contact" class="nav-link">About Us</a>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#social" class="dropdown-item">Social Media</a>
+                                <a href="#banking" class="dropdown-item">Banking</a>
+                                <a href="#onlineShopping" class="dropdown-item">Online Shopping</a>
+                                <a href="#awareness" class="dropdown-item">Awareness</a>
+                                <a href="#" class="dropdown-item">Others</a>
+
+                            </div>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a href="Registration.html" class="nav-link">Login/Register</a>
+                        </div>
+                    </div>
+                    <a href="#Queries" class="btn btn-light rounded-pill text-primary py-2 px-4 ms-lg-5">Queries</a>
+                    <div class="nav-item dropdown ms-lg-3">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fas fa-globe"></i> Language
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="Home.html" class="dropdown-item" data-lang="en">English</a>
+                            <a href="Hindi.html" class="dropdown-item" data-lang="es">हिंदी</a>
+                            <a href="Gujarati.html" class="dropdown-item" data-lang="fr">ગુજરાતી</a>
+                            <a href="Tamil.html" class="dropdown-item" data-lang="fr"> தமிழ்</a>
+                            <a href="Punjabi.html" class="dropdown-item" data-lang="fr">ਪੰਜਾਬੀ</a>
+                            <a href="Marathi.html" class="dropdown-item" data-lang="fr"> मराठी</a>
+                            <!-- Add more languages as needed -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-xxl bg-primary hero-header">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated zoomIn">
+                                A Simple Guide to Navigating Your Favorite Social Media Apps!
+                            </h1>
+                            <p class="text-white pb-3 animated zoomIn">
+                                Step By Step Guide For How to Use Social media Apps
+                            </p>
+
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid animated zoomIn" src="img/hero.png" alt />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-6" id="social">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">
+                        Our Services
+                    </div>
+                    <h2 class="mb-5">We Provide Solutions On Your Business</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded h-100" id="whatsapp-container" onclick="openDialog('whatsapp')">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fab fa-whatsapp fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">WhatsApp</h5>
+                                <span>A messaging app for instant communication. It allows users
+                                    to send text messages, voice notes, images, videos, and make
+                                    voice or video calls, enabling real-time personal or group
+                                    conversations.</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Instagram Service Item -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded h-100" id="instagram-container" onclick="openDialog('instagram')">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fab fa-instagram fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Instagram</h5>
+                                <span>A visual-focused platform where users share photos, videos,
+                                    and stories. It's popular for personal branding, business
+                                    marketing, and connecting with an audience through creative
+                                    content.</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Facebook Service Item -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded h-100" id="facebook-container" onclick="openDialog('facebook')">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fab fa-facebook fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Facebook</h5>
+                                <span>A social media platform where users can connect with
+                                    friends, share updates, photos, and videos, and follow pages
+                                    or groups of interest. It’s great for staying in touch and
+                                    engaging with communities.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="service-item rounded h-100" id="youtube-container" onclick="openDialog('youtube')">
+                                <div class="d-flex justify-content-between">
+                                    <div class="service-icon">
+                                        <i class="fab fa-youtube fa-2x"></i>
+                                    </div>
+                                </div>
+                                <div class="p-5">
+                                    <h5 class="mb-3">YouTube</h5>
+                                    <span>A video-sharing platform where users can upload, view,
+                                        and interact with videos. It's widely used for
+                                        entertainment, education, tutorials, and brand promotion
+                                        through engaging video content.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="dialog-box" class="dialog-box">
+                        <div class="dialog-content">
+                            <div class="dialog-header">
+                                <i id="dialog-icon" class="fab fa-whatsapp fa-4x"></i>
+                                <h3 id="dialog-title">WhatsApp Guide</h3>
+                                <span class="close-btn" onclick="closeDialog()">&times;</span>
+                            </div>
+                            <div class="dialog-body">
+                                <h4>How to use <span id="app-name">WhatsApp</span></h4>
+                                <ol id="guide-steps">
+                                    <!-- Steps will be dynamically updated -->
+                                </ol>
+                                <h4>Security Features</h4>
+                                <ul id="security-features">
+                                    <!-- Security features will be dynamically updated -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Service End -->
+
+    <!-- Features Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h2 class="mb-4">
+                        Empower Your Finances: Explore the Best Banking Apps for Seamless Banking Experience!
+                    </h2>
+
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="Certificates.html">Read More</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-5">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-cubes text-white"></i>
+                                </div>
+                                <h6 class="mb-0">Axis Mobile</h6>
+                            </div>
+                            <span> Manage your Axis Bank accounts on the go with Axis Mobile. Enjoy seamless banking
+                                services, fund transfers, bill payments, and more with secure and fast transactions.
+
+                            </span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-percent text-white"></i>
+                                </div>
+                                <h6 class="mb-0"> HDFC MobileBanking</h6>
+                            </div>
+                            <span>
+                                HDFC’s MobileBanking app brings banking to your fingertips. Access account details,
+                                transfer funds, pay bills, and apply for loans with advanced security features.
+
+                            </span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-award text-white"></i>
+                                </div>
+                                <h6 class="mb-0">BOB World</h6>
+                            </div>
+                            <span> The Bank of Baroda's BOB World app offers a world of digital banking services,
+                                from fund transfers to investment options, ensuring a smooth and safe banking
+                                experience.
+
+                            </span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-smile-beam text-white"></i>
+                                </div>
+                                <h6 class="mb-0">YONO SBI</h6>
+                            </div>
+                            <span>
+                                YONO SBI provides comprehensive banking services, offering everything from account
+                                management and investments to shopping and lifestyle benefits, all in one app.
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    <div class="container-xxl py-6">
+        <div class="container">
+            <h2 class="mb-5 text-center">🛍 Online Shopping Apps Guide</h2>
+
+            <!-- Amazon Section -->
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <img src="img/amazon.jpg" class="img-fluid rounded shadow" alt="Amazon Shopping App"
+                        style="width:200px; height: 200px; object-fit: contain; display: block; margin: auto;">
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-3">Amazon</h4>
+                    <p>Amazon is one of the most popular e-commerce platforms, offering millions of products with fast
+                        delivery, secure payments, and exciting deals.</p>
+                        <li> Sign Up :Create an account with email/phone.</li>
+                        <li> Search Products : Use the search bar or browse categories.</li>
+                        <li> Check Details : Read descriptions, reviews, and ratings.</li>
+                         <li> Add to Cart : Click “Add to Cart” or “Buy Now.”</li>
+                         <li>Checkout: Enter shipping address and choose payment method.</li>
+                         <li>Payment : Use UPI, cards, net banking, or COD.</li>
+                         <li>Track Order : Check "My Orders" for updates.</li>
+                        <li> Returns : Request a return or refund if needed.</li>
+
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="https://amazon.in" target="_blank">Learn
+                        More</a>
+                </div>
+            </div>
+
+            <!-- Flipkart Section -->
+            <div class="row g-5 align-items-center flex-row-reverse mt-4">
+                <div class="col-lg-6">
+                    <img src="img/flipkart.jpg" class="img-fluid rounded shadow" alt="Flipkart Shopping App"
+                        style="width: 200px; height:200px; object-fit: contain; display: block; margin: auto;">
+
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-3">Flipkart</h4>
+                     <p>Flipkart is India’s leading online shopping platform, providing a wide range of electronics,
+                        clothing, and household items with exclusive discounts.</p>
+                        <li> Sign Up : Create an account using mobile/email.
+                        <li> Search for Items : Use search bar or categories.
+                         <li> Check Reviews : Ensure quality through ratings.
+                        <li>Add to Cart : Click “Add to Cart” or “Buy Now.”
+                        <li> Proceed to Checkout : Enter shipping details.
+                        <li> Make Payment : Use UPI, card, net banking, or COD.
+                        <li>Track Order : Monitor order status in “My Orders.”
+                        <li> Returns & Refunds : Request a return if required.
+
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="https://flipkart.com" target="_blank">Learn
+                        More</a>
+                </div>
+            </div>
+
+            <!-- Myntra Section -->
+            <div class="row g-5 align-items-center mt-4">
+                <div class="col-lg-6">
+                    <img src="img/myntra.jpg" class="img-fluid rounded shadow" alt="Myntra Shopping App"
+                        style="width: 200px; height: 200px; object-fit: contain; display: block; margin: auto;">
+
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-3">Myntra</h4>
+                    <p>Myntra is a top fashion and lifestyle shopping platform offering a diverse collection of trendy
+                    clothing, accessories, and footwear.</p>
+                    
+                        <li>Sign Up : Register with mobile/email.</li>
+                       <li> Browse Fashion : Select from clothing, footwear, accessories.</li>
+                       <li>Check Size & Reviews : Ensure correct fit.</li>
+                       <li>Add to Bag : Click “Add to Bag” or Wishlist.</li>
+                       <li>Checkout : Confirm delivery details.</li>
+                       <li>Payment : Choose UPI, wallet, card, or COD.</li>
+                       <li>Track Order : See real-time updates.</li>
+                       <li>Return/Exchange : Initiate a return if needed.</li>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="https://myntra.com" target="_blank">Learn
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-xxl py-6">
+        <div class="container">
+            <h2 class="mb-5 text-center">Awareness</h2>
+    
+            <!-- Amazon Section -->
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <img src="img/socialmedia.png" class="img-fluid rounded shadow" alt="Amazon Shopping App"
+                        style="width:200px; height: 200px; object-fit: contain; display: block; margin: auto;">
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-3">Social media awareness
+                    <h5>How to Use it Safely:</h5>
+                    <ol>
+                        <li>Think Before You Post - Avoid sharing sensitive or personal information.</li>
+                        <li>Use Strong Passwords - Create unique passwords and enable two-factor authentication.</li>
+                        <li>Check Privacy Settings - Restrict who can see your posts and personal details.</li>
+                        <li>Avoid Suspicious Links - Do not click on unknown or unverified links.</li>
+                        <li>Verify Friend Requests - Accept requests only from people you know.</li>
+                        <li>Be Mindful of Cyberbullying - report and block abusive accounts.</li>
+                        <li>Stay Updated - Be aware of the latest scams and security threats.</li>
+                        <li>Limit Location Sharing - Avoid sharing your real-time location publicly.</li>
+                        <li>Use Secure Connections - Avoid using public Wi-Fi for logging in.</li>
+                        <li>Think Critically - Verify news and information before sharing.</li>
+                    </ol>
+                    </h4>
+                </div>
+            </div>
+    
+            <!-- Flipkart Section -->
+            <div class="row g-5 align-items-center flex-row-reverse mt-4">
+                <div class="col-lg-6">
+                    <img src="img/bankfraud.webp" class="img-fluid rounded shadow" alt="Flipkart Shopping App"
+                        style="width: 200px; height:200px; object-fit: contain; display: block; margin: auto;">
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-3">Banking scam awareness
+                   
+                    <h5>How to Use Banking application Safely:</h5>
+                    <ol>
+
+                        <li>Beware of Phishing Emails, Calls & Messages</li>
+                        <li>Never Share OTP, CVV, or Bank Account Details</li>
+                        <li>Verify URLs Before Logging Into Net Banking</li> 
+                        <li>Avoid Clicking on Suspicious Links or Attachments</li>  
+                         <li>Use Strong Passwords & Enable Two-Factor Authentication (2FA)</li>
+                        <li>Monitor Bank Statements for Unauthorized Transactions</li> 
+                        <li>Do Not Respond to Fake Loan or Lottery Offers</li> 
+                        <li>Use Official Bank Apps & Websites Only</li>
+                        <li>Report Fraud Immediately to Your Bank & Cyber Cell</li>
+                        <li>Educate Family & Friends About Banking Scams</li> 
+                    </ol>
+                    </h4>
+                </div>
+            </div>
+    
+            <!-- Myntra Section -->
+            <div class="row g-5 align-items-center mt-4">
+                <div class="col-lg-6">
+                    <img src="img/digilocker.png" class="img-fluid rounded shadow" alt="Myntra Shopping App"
+                        style="width: 200px; height: 200px; object-fit: contain; display: block; margin: auto;">
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-3"></h4>
+
+                    <h5>Store Government Documents Safely:</h5>
+                    <ol>
+                        <li>Keep Secure – Store documents safely (locker, password-protected files).</li>
+                        <li>Use Strong Passwords – Protect digital files with complex passwords.</li>
+                        <li>Enable 2FA – Add extra security for online accounts.</li>
+                        <li>Avoid Sharing – Share only with trusted sources.</li>
+                        <li>Beware of Scams – Do not click suspicious links or emails.</li>
+                        <li>Backup Regularly – Store copies in cloud or external drives.</li>
+                        <li>Shred Unused Documents – Destroy old papers to prevent misuse.</li>
+                        <li>Monitor Statements – Check bank/financial records for fraud.</li>
+                        <li>Use Encryption – Protect sensitive files with encryption tools.</li>
+                        <li>Log Out from Shared Devices – Prevent unauthorized access.</li>
+                    </ol>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- Client Start -->
+    <div class="container-xxl bg-primary my-6 py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="owl-carousel client-carousel">
+                <a href="https://www.whatsapp.com/"
+                    style="display: flex; justify-content: center; align-items: center; height: 100px; width: 100px; background-color: white; border-radius: 10px; margin: 0 10px; padding: 10px;">
+                    <img style="width: 70px; height: 70px; object-fit: contain;"
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" />
+                </a>
+                <a href="https://www.facebook.com/"
+                    style="display: flex; justify-content: center; align-items: center; height: 100px; width: 100px; background-color: white; border-radius: 10px; margin: 0 10px; padding: 10px;">
+                    <img style="width: 70px; height: 70px; object-fit: contain;"
+                        src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                        alt="Facebook Logo" />
+                </a>
+                <a href="https://www.instagram.com/"
+                    style="display: flex; justify-content: center; align-items: center; height: 100px; width: 100px; background-color: white; border-radius: 10px; margin: 0 10px; padding: 10px;">
+                    <img style="width: 70px; height: 70px; object-fit: contain;"
+                        src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                        alt="Instagram Logo" />
+                </a>
+                <a href="https://www.youtube.com/"
+                    style="display: flex; justify-content: center; align-items: center; height: 100px; width: 100px; background-color: white; border-radius: 10px; margin: 0 10px; padding: 10px;">
+                    <img style="width: 70px; height: 70px; object-fit: contain;"
+                        src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
+                        alt="YouTube Logo" />
+                </a>
+
+                <!-- Axis Mobile App -->
+                <a href="img/ax'" target="_blank"
+                    style="display: flex; justify-content: center; align-items: center; height: 100px; width: 100px; background-color: white; border-radius: 10px; margin: 0 10px; padding: 10px;">
+                    <img style="width: 70px; height: 70px; object-fit: contain;" src="img/axis.png"
+                        alt="Axis Mobile App Logo" />
+                </a>
+                <!-- HDFC MobileBanking App -->
+                <a href="img/hdfc.png" target="_blank"
+                    style="display: flex; justify-content: center; align-items: center; height: 100px; width: 100px; background-color: white; border-radius: 10px; margin: 0 10px; padding: 10px;">
+                    <img style="width: 70px; height: 70px; object-fit: contain;" src="img/hdfc.png"
+                        alt="HDFC MobileBanking App Logo" />
+                </a>
+                <!-- BOB World App -->
+                <a href="img/bob.jpg" target="_blank"
+                    style="display: flex; justify-content: center; align-items: center; height: 100px; width: 100px; background-color: white; border-radius: 10px; margin: 0 10px; padding: 10px;">
+                    <img style="width: 70px; height: 70px; object-fit: contain;" src="img/bob.jpg"
+                        alt="BOB World App Logo" />
+                </a>
+                <!-- YONO SBI App -->
+                <a href="img/yono.jpeg" target="_blank"
+                    style="display: flex; justify-content: center; align-items: center; height: 100px; width: 100px; background-color: white; border-radius: 10px; margin: 0 10px; padding: 10px;">
+                    <img style="width: 70px; height: 70px; object-fit: contain;" src="img/yono.jpeg"
+                        alt="YONO SBI App Logo" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-6" id="Queries">
+        <div class="container">
+            <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Contact
+                    Us</div>
+                <h2 class="mb-5">If You Have Any Query, Please Feel Free
+                    Contact Us</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.3s">
+                    <!-- <p class="text-center mb-4">The contact form is
+                            currently inactive. Get a functional and working
+                            contact form with Ajax & PHP in a few minutes.
+                            Just copy and paste the files, add a little code
+                            and you're done. <a
+                                href="https://htmlcodex.com/contact-form">Download
+                                Now</a>.</p> -->
+                    <form onsubmit="sendMail()">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                        name="name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                        name="email">
+                                    <label for="email">Your
+                                        Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                        name="subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        name="message" style="height: 150px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit" onclick="myFunction()">Send
+                                    Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem">
+        <div class="container py-5">
+            <div class="row g-5">
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="text-white mb-4">About Us</h5>
+                    <a class="btn btn-link" href="about.html">Social Media
+                    </a>
+                    <a class="btn btn-link" href="">Banking</a>
+                    <a class="btn btn-link" href="">Online shopping</a>
+                    <a class="btn btn-link" href="">Awareness</a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="text-white mb-4">Our Services</h5>
+                    <a class="btn btn-link" href="">WhatsApp</a>
+                    <a class="btn btn-link" href="">Facebook</a>
+                    <a class="btn btn-link" href="">YouTube</a>
+                    <a class="btn btn-link" href="">Instagram</a>
+                    <a class="btn btn-link" href="">Banking Apps</a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="position-relative w-100 mt-3">
+                        <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
+                            placeholder="Your Email" style="height: 48px" />
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
+                            <i class="fa fa-paper-plane text-primary fs-4"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy;
+                        <a class="border-bottom" href="#">2025 Your Learning Guide</a>, All Right Reserved.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
