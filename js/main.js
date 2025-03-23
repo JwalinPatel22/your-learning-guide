@@ -105,6 +105,7 @@ function openDialog(app) {
     const appName = document.getElementById("app-name");
     const guideSteps = document.getElementById("guide-steps");
     const securityFeatures = document.getElementById("security-features");
+    const video = document.getElementById("video");
 
     let data = {};
 
@@ -122,6 +123,12 @@ function openDialog(app) {
                 "Make voice or video calls."
             ],
             security: [
+                "End-to-end encryption for messages.",
+                "Two-step verification for added security.",
+                "Control who can see your profile photo.",
+                "Report and block suspicious contacts."
+            ],
+            video: [
                 "End-to-end encryption for messages.",
                 "Two-step verification for added security.",
                 "Control who can see your profile photo.",

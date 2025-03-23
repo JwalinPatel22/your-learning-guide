@@ -469,9 +469,12 @@
 .service-item:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* Dialog Box Styling */
+/* 
+Dialog Box Styling */
 .dialog-box {
+    max-height: max-content;  /* Restricts height to allow scrolling */
+    overflow-y: auto;  /* Enables scrolling inside the dialog body */
+    padding-right: 10px;
     display: none;
     position: fixed;
     z-index: 100;
@@ -483,6 +486,8 @@
 }
 
 .dialog-content {
+    max-height: 80vh;  /* Limits the height of the dialog */
+    overflow-y: auto;
     position: relative;
     margin: 10% auto;
     background: #fff;
@@ -493,6 +498,10 @@
 }
 
 .dialog-header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 10;
     display: flex;
     align-items: center;
     gap: 20px;
