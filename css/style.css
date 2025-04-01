@@ -472,9 +472,6 @@
 /* 
 Dialog Box Styling */
 .dialog-box {
-    max-height: max-content;  /* Restricts height to allow scrolling */
-    overflow-y: auto;  /* Enables scrolling inside the dialog body */
-    padding-right: 10px;
     display: none;
     position: fixed;
     z-index: 100;
@@ -483,22 +480,23 @@ Dialog Box Styling */
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
+    overflow-y: auto; /* Enables scrolling if content overflows */
 }
 
 .dialog-content {
-    max-height: 80vh;  /* Limits the height of the dialog */
+    max-height: 90vh;  /* Increased height while keeping it scrollable */
     overflow-y: auto;
     position: relative;
-    margin: 10% auto;
+    margin: 5% auto; /* Adjusted for better centering */
     background: #fff;
     padding: 20px;
-    width: 60%;
-    max-width: 600px;
+    width: 70%; /* Increased width slightly */
+    max-width: 800px; /* Increased max width */
     border-radius: 8px;
 }
 
 .dialog-header {
-    position: sticky;
+    position: relative;
     top: 0;
     background: #fff;
     z-index: 10;
