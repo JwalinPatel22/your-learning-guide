@@ -223,6 +223,145 @@ function openDialog(app) {
 }
 
 // Open Dialog Function
+// function openDialog(app) {
+//   const dialogIcon = document.getElementById("dialog-icon");
+//   const dialogTitle = document.getElementById("dialog-title");
+//   const appName = document.getElementById("app-name");
+//   const guideSteps = document.getElementById("guide-steps");
+//   const securityFeatures = document.getElementById("security-features");
+//   const video = document.getElementById("video");
+
+//   let data = {};
+
+//   // Data for each app
+//   const appData = {
+//     whatsapp: {
+//       title: "WhatsApp Guide",
+//       iconClass: "fab fa-whatsapp",
+//       guide: [
+//         "Download and install WhatsApp from the app store.",
+//         "Open the app and agree to the terms and conditions.",
+//         "Enter your phone number and verify it with a code.",
+//         "Set up your profile with a name and picture.",
+//         "Start chatting with your contacts.",
+//         "Make voice or video calls.",
+//       ],
+//       security: [
+//         "End-to-end encryption for messages.",
+//         "Two-step verification for added security.",
+//         "Control who can see your profile photo.",
+//         "Report and block suspicious contacts.",
+//       ],
+//       videoEmbed: "https://www.youtube.com/embed/fjVlDYu6erU",
+//     },
+//     instagram: {
+//       title: "Instagram Guide",
+//       iconClass: "fab fa-instagram",
+//       guide: [
+//         "Download Instagram from the app store.",
+//         "Sign up with your email or phone number.",
+//         "Set up your profile with a picture.",
+//         "Start following your friends.",
+//         "Share photos, videos, or stories.",
+//         "Engage with posts by liking and commenting.",
+//       ],
+//       security: [
+//         "Enable two-factor authentication.",
+//         "Control who can see your posts.",
+//         "Block and report suspicious users.",
+//         "Review third-party app access.",
+//       ],
+//       videoEmbed: "https://www.youtube.com/embed/2YSB468mn4M",
+//     },
+//     facebook: {
+//       title: "Facebook Guide",
+//       iconClass: "fab fa-facebook",
+//       guide: [
+//         "Download Facebook from the app store.",
+//         "Sign up with your email or phone number.",
+//         "Set up your profile with a name and picture.",
+//         "Connect with friends by sending friend requests.",
+//         "Post updates, photos, and videos.",
+//         "Engage with others through likes and comments.",
+//       ],
+//       security: [
+//         "Set privacy settings for posts.",
+//         "Enable two-factor authentication.",
+//         "Block and report fake accounts.",
+//         "Review apps and websites connected to Facebook.",
+//       ],
+//       videoEmbed: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+//     },
+//     youtube: {
+//       title: "YouTube Guide",
+//       iconClass: "fab fa-youtube",
+//       guide: [
+//         "Download YouTube from the app store.",
+//         "Sign in with your Google account.",
+//         "Subscribe to your favorite channels.",
+//         "Like, comment, and share videos.",
+//         "Create your own videos and upload them.",
+//         "Engage with content by liking and sharing.",
+//       ],
+//       security: [
+//         "Control who can comment on your videos.",
+//         "Enable Restricted Mode for safe content.",
+//         "Report inappropriate videos.",
+//         "Manage privacy settings for your videos.",
+//       ],
+//       videoEmbed:
+//         "https://www.youtube.com/watch?v=KD4JiwyXpoc&list=PLgc0GNip2uYX8Wm0c9GAfJsLrEBWxswyA&index=2",
+//     },
+//   };
+
+//   if (appData[app]) {
+//     data = appData[app];
+//   } else {
+//     console.error("Invalid app name:", app);
+//     return;
+//   }
+
+//   // Update dialog content
+//   dialogIcon.className = data.iconClass + " fa-4x";
+//   dialogTitle.innerText = data.title;
+//   appName.innerText = app.charAt(0).toUpperCase() + app.slice(1);
+
+//   // Populate the guide steps
+//   guideSteps.innerHTML = "";
+//   data.guide.forEach((step) => {
+//     let li = document.createElement("li");
+//     li.innerText = step;
+//     guideSteps.appendChild(li);
+//   });
+
+//   // Populate the security features
+//   securityFeatures.innerHTML = "";
+//   data.security.forEach((feature) => {
+//     let li = document.createElement("li");
+//     li.innerText = feature;
+//     securityFeatures.appendChild(li);
+//   });
+
+//   // Embed YouTube Video
+//   video.innerHTML = "";
+//   if (data.videoEmbed) {
+//     const iframe = document.createElement("iframe");
+//     iframe.setAttribute("width", "560");
+//     iframe.setAttribute("height", "315");
+//     iframe.setAttribute("src", data.videoEmbed);
+//     iframe.setAttribute("frameborder", "0");
+//     iframe.setAttribute(
+//       "allow",
+//       "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+//     );
+//     iframe.setAttribute("allowfullscreen", "true");
+//     video.appendChild(iframe);
+//   }
+
+//   // Show the dialog box
+//   document.getElementById("dialog-box").style.display = "block";
+// }
+
 function openDialog(app) {
   const dialogIcon = document.getElementById("dialog-icon");
   const dialogTitle = document.getElementById("dialog-title");
@@ -236,78 +375,78 @@ function openDialog(app) {
   // Data for each app
   const appData = {
     whatsapp: {
-      title: "WhatsApp Guide",
+      title: "व्हाट्सएप गाइड",
       iconClass: "fab fa-whatsapp",
       guide: [
-        "Download and install WhatsApp from the app store.",
-        "Open the app and agree to the terms and conditions.",
-        "Enter your phone number and verify it with a code.",
-        "Set up your profile with a name and picture.",
-        "Start chatting with your contacts.",
-        "Make voice or video calls.",
+        "ऐप स्टोर से व्हाट्सएप डाउनलोड और इंस्टॉल करें।",
+        "ऐप खोलें और नियम व शर्तें स्वीकार करें।",
+        "अपना फ़ोन नंबर डालें और कोड से सत्यापित करें।",
+        "अपने नाम और प्रोफ़ाइल फ़ोटो के साथ सेटअप करें।",
+        "अपनी संपर्क सूची में चैट करना शुरू करें।",
+        "वॉइस या वीडियो कॉल करें।",
       ],
       security: [
-        "End-to-end encryption for messages.",
-        "Two-step verification for added security.",
-        "Control who can see your profile photo.",
-        "Report and block suspicious contacts.",
+        "संदेशों के लिए एंड-टू-एंड एन्क्रिप्शन।",
+        "सुरक्षा बढ़ाने के लिए दो-चरणीय सत्यापन।",
+        "नियंत्रण करें कि आपकी प्रोफ़ाइल फ़ोटो कौन देख सकता है।",
+        "संदिग्ध संपर्कों को रिपोर्ट करें और ब्लॉक करें।",
       ],
       videoEmbed: "https://www.youtube.com/embed/fjVlDYu6erU",
     },
     instagram: {
-      title: "Instagram Guide",
+      title: "इंस्टाग्राम गाइड",
       iconClass: "fab fa-instagram",
       guide: [
-        "Download Instagram from the app store.",
-        "Sign up with your email or phone number.",
-        "Set up your profile with a picture.",
-        "Start following your friends.",
-        "Share photos, videos, or stories.",
-        "Engage with posts by liking and commenting.",
+        "ऐप स्टोर से इंस्टाग्राम डाउनलोड करें।",
+        "अपने ईमेल या फ़ोन नंबर से साइन अप करें।",
+        "प्रोफ़ाइल फ़ोटो सेट करें।",
+        "अपने दोस्तों को फॉलो करना शुरू करें।",
+        "फोटो, वीडियो, या स्टोरी शेयर करें।",
+        "पोस्ट्स को लाइक और कमेंट करें।",
       ],
       security: [
-        "Enable two-factor authentication.",
-        "Control who can see your posts.",
-        "Block and report suspicious users.",
-        "Review third-party app access.",
+        "दो-चरणीय सत्यापन सक्षम करें।",
+        "नियंत्रण करें कि आपकी पोस्ट कौन देख सकता है।",
+        "संदिग्ध उपयोगकर्ताओं को ब्लॉक और रिपोर्ट करें।",
+        "थर्ड-पार्टी ऐप एक्सेस की समीक्षा करें।",
       ],
       videoEmbed: "https://www.youtube.com/embed/2YSB468mn4M",
     },
     facebook: {
-      title: "Facebook Guide",
+      title: "फेसबुक गाइड",
       iconClass: "fab fa-facebook",
       guide: [
-        "Download Facebook from the app store.",
-        "Sign up with your email or phone number.",
-        "Set up your profile with a name and picture.",
-        "Connect with friends by sending friend requests.",
-        "Post updates, photos, and videos.",
-        "Engage with others through likes and comments.",
+        "ऐप स्टोर से फेसबुक डाउनलोड करें।",
+        "अपने ईमेल या फ़ोन नंबर से साइन अप करें।",
+        "प्रोफ़ाइल सेट करें।",
+        "मित्रों को फ्रेंड रिक्वेस्ट भेजें।",
+        "अपडेट, फोटो, और वीडियो पोस्ट करें।",
+        "लाइक और कमेंट के ज़रिए दूसरों के साथ जुड़ें।",
       ],
       security: [
-        "Set privacy settings for posts.",
-        "Enable two-factor authentication.",
-        "Block and report fake accounts.",
-        "Review apps and websites connected to Facebook.",
+        "पोस्ट्स के लिए गोपनीयता सेटिंग्स सेट करें।",
+        "दो-चरणीय सत्यापन सक्षम करें।",
+        "फर्जी खातों को ब्लॉक और रिपोर्ट करें।",
+        "फेसबुक से जुड़े ऐप्स और वेबसाइट की समीक्षा करें।",
       ],
       videoEmbed: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
     },
     youtube: {
-      title: "YouTube Guide",
+      title: "यूट्यूब गाइड",
       iconClass: "fab fa-youtube",
       guide: [
-        "Download YouTube from the app store.",
-        "Sign in with your Google account.",
-        "Subscribe to your favorite channels.",
-        "Like, comment, and share videos.",
-        "Create your own videos and upload them.",
-        "Engage with content by liking and sharing.",
+        "ऐप स्टोर से यूट्यूब डाउनलोड करें।",
+        "अपने गूगल खाते से साइन इन करें।",
+        "अपने पसंदीदा चैनलों को सब्सक्राइब करें।",
+        "वीडियो लाइक, कमेंट और शेयर करें।",
+        "अपने खुद के वीडियो बनाकर अपलोड करें।",
+        "कंटेंट से इंटरैक्ट करें।",
       ],
       security: [
-        "Control who can comment on your videos.",
-        "Enable Restricted Mode for safe content.",
-        "Report inappropriate videos.",
-        "Manage privacy settings for your videos.",
+        "नियंत्रण करें कि आपके वीडियो पर कौन कमेंट कर सकता है।",
+        "सुरक्षित सामग्री के लिए 'Restricted Mode' सक्षम करें।",
+        "अप्रासंगिक वीडियो रिपोर्ट करें।",
+        "अपने वीडियो की गोपनीयता सेटिंग्स प्रबंधित करें।",
       ],
       videoEmbed:
         "https://www.youtube.com/watch?v=KD4JiwyXpoc&list=PLgc0GNip2uYX8Wm0c9GAfJsLrEBWxswyA&index=2",
